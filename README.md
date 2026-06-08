@@ -1,44 +1,12 @@
-# .
+# Tutorial - Catálogo de Produtos com Vue e CSS Grid
 
-This template should help get you started developing with Vue 3 in Vite.
+Nesta aplicação, estão disponibilizadas algumas feats que vocês poderão utilizar tanto no Projeto Trimestral quanto até mesmo no Hackathon. Aqui nesta aplicação, o objetivo é criar um Catálogo de Produtos para Pets. Utilizei poucos componentes, mas a ideia é que vocês possam expandir e personalizar à vontade. O foco é mais na estruturação do projeto, na organização dos arquivos e na implementação de funcionalidades como filtros e navegação entre páginas.
 
-## Recommended IDE Setup
+Os passos para a construção da aplicação estão nos arquivos `markdown` dentro da pasta `steps/`. Cada etapa tem um título, uma descrição do que deve ser feito e um trecho de código para ser implementado. O código completo de cada etapa está disponível no repositório, mas a ideia é que vocês tentem implementar por conta própria seguindo as instruções.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Recommended Browser Setup
-
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+1. [Configuração do Projeto](steps/01_configuracao.md)
+2. [Criação do Menu - Componente AppHeader.vue](steps/02_menu.md)
+3. [Criação do Mecanismo de Busca de Produtos](steps/03_busca.md)
+4. [Criação do Componente em uma nova Rota/nova view para os detalhes do produto](steps/04_detalhecard.md)
+5. [Criação do Filtro por Categoria](steps/05_filtrocategoria.md)
+6. [Instalação da biblioteca de ícones Material Design Icons](steps/06_materialdesign.md)
