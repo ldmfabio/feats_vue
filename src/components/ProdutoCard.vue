@@ -1,4 +1,5 @@
 <script setup>
+import { RouterLink } from 'vue-router'
 defineProps({
   produto: {
     type: Object,
@@ -9,13 +10,13 @@ defineProps({
 
 <template>
   <div class="produto-card">
-    <img
-      :src="produto.imagem"
-      :alt="produto.nome"
-      class="produto-imagem"
-    >
+    <img :src="produto.imagem" :alt="produto.nome" class="produto-imagem">
 
-    <h3>{{ produto.nome }}</h3>
+    <h3>
+      <RouterLink :to="{ name: 'produto', params: { id: produto.id } }">
+        {{ produto.nome }}
+      </RouterLink>
+    </h3>
 
     <p>{{ produto.categoria }}</p>
 
