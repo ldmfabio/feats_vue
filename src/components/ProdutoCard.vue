@@ -1,4 +1,5 @@
 <script setup>
+import ButtonChild from '@/components/ButtonChild.vue'
 import { RouterLink } from 'vue-router'
 defineProps({
   produto: {
@@ -23,6 +24,11 @@ defineProps({
     <strong>
       R$ {{ produto.preco.toFixed(2) }}
     </strong>
+    <p>
+      <ButtonChild @clique="() => alert('Botão clicado!')">
+
+      </ButtonChild>
+    </p>
   </div>
 </template>
 
