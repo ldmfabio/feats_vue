@@ -1,3 +1,5 @@
+### [Voltar](../README.md)
+
 # Adicionando Filtro por Categoria ao Catálogo de Produtos
 
 Este documento descreve as etapas para implementar um filtro de categoria na `CatalogoView`. O usuário seleciona uma categoria em um `<select>` e a listagem de produtos é atualizada automaticamente — em combinação com o filtro de busca por nome já existente.

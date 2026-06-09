@@ -1,3 +1,5 @@
+### [Voltar](../README.md)
+
 # Adicionando Ícones com Material Design Icons
 
 Este documento descreve as etapas para instalar a biblioteca de ícones Material Design Icons (MDI), criar um componente de botão reutilizável que usa um ícone e incluí-lo nos cards do catálogo.

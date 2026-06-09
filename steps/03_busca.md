@@ -1,3 +1,5 @@
+### [Voltar](../README.md)
+
 # Adicionando Busca por Nome ao Catálogo de Produtos
 
 Este documento descreve as etapas para implementar um campo de busca por nome de produto. O input fica no `AppHeader` e é visível em todas as páginas. Ao digitar, a URL é atualizada com um query param (`?q=termo`) e o catálogo filtra os produtos automaticamente — sem comunicação direta entre componentes.
